@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ToonEffect.qml</file>
+        <file>SilhouetteEffect.qml</file>
+    </qresource>
+</RCC>

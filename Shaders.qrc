@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Toon.frag</file>
+        <file>Toon.vert</file>
+        <file>Silhouette.frag</file>
+        <file>Silhouette.vert</file>
+    </qresource>
+</RCC>

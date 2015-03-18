@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Cube.mtl</file>
+        <file>Cube.obj</file>
+        <file>toyplane.obj</file>
+        <file>trefoil.obj</file>
+        <file>teapot.obj</file>
+        <file>Chest.obj</file>
+        <file>diffuse.webp</file>
+    </qresource>
+</RCC>
