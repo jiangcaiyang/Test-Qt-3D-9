@@ -24,7 +24,7 @@ Entity
         id: frameGraph
         ForwardRenderer
         {
-            clearColor: Qt.rgba( 0.2, 0.9, 0.5, 1 )
+            clearColor: Qt.rgba( 0.8, 0.3, 0.2, 1 )
             camera: camera
         }
     }
@@ -41,7 +41,7 @@ Entity
         Material
         {
             id: material
-            effect: SilhouetteEffect { }
+            effect: ToonSilhouetteEffect { }
         }
 
         components: [ mesh, material ]

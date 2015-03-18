@@ -1,3 +1,5 @@
+// ToonSilhouetteEffect.qml
+
 import Qt3D 2.0
 import Qt3D.Render 2.0
 
@@ -18,6 +20,25 @@ Effect
             minorVersion: 0
         }
 
+        parameters:
+        [
+            Parameter
+            {
+                name: "texPalette"
+                value: texPalette
+            }
+        ]
+
+        Texture2D
+        {
+            id: texPalette
+
+            TextureImage
+            {
+                source: "qrc:/discreetPalette.png"
+            }
+        }
+
         renderPasses: [ toonMapPass ]
         RenderPass
         {
@@ -27,8 +48,8 @@ Effect
             ShaderProgram
             {
                 id: toonSP
-                vertexShaderCode: loadSource( "qrc:/Silhouette.vert" )
-                fragmentShaderCode: loadSource( "qrc:/Silhouette.frag" )
+                vertexShaderCode: loadSource( "qrc:/ToonSilhouette.vert" )
+                fragmentShaderCode: loadSource( "qrc:/ToonSilhouette.frag" )
             }
             renderStates:
             [
