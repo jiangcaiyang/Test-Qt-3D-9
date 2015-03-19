@@ -1,4 +1,4 @@
-// Depth.vert
+// Silhouette.vert
 #version 100
 
 // Qt 3D默认提供的参数
